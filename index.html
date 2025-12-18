@@ -600,6 +600,20 @@
                                         <td class="has-text-right">9.8</td>
                                         <td class="has-text-right">9.4</td>
                                     </tr>
+                                    <tr data-type="Agent">
+                                        <td>42</td>
+                                        <td class="has-text-left">Codex + GPT-5.1-Codex-Max</td>
+                                        <td class="has-text-right">56.3</td>
+                                        <td class="has-text-right">75.8</td>
+                                        <td class="has-text-right">70.4</td>
+                                    </tr>
+                                    <tr data-type="Agent">
+                                        <td>43</td>
+                                        <td class="has-text-left">Codex + GPT-5</td>
+                                        <td class="has-text-right">52.5</td>
+                                        <td class="has-text-right">71.1</td>
+                                        <td class="has-text-right">70.8</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -657,6 +671,11 @@
                     name: 'openhands',
                     re: /(openhands)/i,
                     src: './static/images/openhands.png',
+                    cls: 'icon'
+                }, {
+                    name: 'codex',
+                    re: /(codex)/i,
+                    src: './static/images/codex.png',
                     cls: 'icon'
                 }];
 
@@ -823,7 +842,7 @@
                         <span class="copy-text">Copy</span>
                     </button>
                 </div>
-                <pre id="bibtex-code "><code>@article{shen2025secrepobench,
+                <pre id="bibtex-code"><code>@article{shen2025secrepobench,
     title={SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories},
     author={Shen, Chihao and Dilgren, Connor and Chiniya, Purva and Griffith, Luke and Ding, Yu and Chen, Yizheng},
     journal={arXiv preprint arXiv:2504.21205},
